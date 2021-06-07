@@ -1,0 +1,186 @@
+.nav-pills .nav-link.active {
+                background-color: rgb(224, 224, 224);
+                color: black;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+
+            .nav-pills .nav-link {
+                background-color: rgb(238, 238, 238);
+                color: black;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+
+
+
+            .bread {
+                background-color: rgb(238, 238, 238);
+                height: 45px;
+                border-radius: 10px 10px 10px 10px;
+                color: black;
+                text-align: center;
+            }
+
+            .breadcrumb {
+                background-color: rgb(238, 238, 238);
+                height: 40px;
+                border-radius: 10px 10px 10px 10px;
+                color: black;
+                text-align: center;
+            }
+
+            .Head {
+                margin-top: 70px;
+
+            }
+
+            .topic {
+                margin-top: 70px;
+
+            }
+
+
+
+
+            .too:visited {
+                color: rgb(0, 0, 0);
+            }
+
+            .row_menu_newtable {
+                background-color: rgb(238, 238, 238);
+                width: 100px;
+                padding: 10px;
+            }
+
+            .wor1 {
+                background-color: rgb(238, 238, 238);
+
+                margin-right: 0px;
+                padding-left: 20px;
+                padding: 30px;
+                border-radius: 10px 10px 10px 10px;
+
+            }
+
+            .Space {
+                margin-top: 70px;
+                margin-bottom: 0px;
+            }
+
+            .Statusboxfont {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-right: 0px;
+                padding-left: 0px;
+            }
+
+            .tab-content {
+                border-radius: 0px 10px 10px 10px;
+                background-color: rgb(245, 245, 245);
+            }
+
+            .wor3 {
+
+                background-color: rgb(238, 238, 238);
+
+                padding: 15px;
+                border-radius: 10px 10px 10px 10px;
+                text-align: center;
+                width: 150px;
+            }
+
+            .search {
+
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 10px 10px 10px 10px;
+                width: 100%;
+                padding: 5px;
+
+
+            }
+
+            ::placeholder {
+                color: rgb(224, 224, 224);
+                position: absolute;
+
+
+
+                background-size: 20px;
+            }
+
+            .srImage {
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 10px 10px 10px 10px;
+                padding: 5px;
+                width: 150px;
+            }
+
+            .table_order {
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px 10px 10px 10px;
+                padding: 25px;
+
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .arrow {
+                border: solid rgb(124, 124, 124);
+                border-width: 0 4px 4px 0;
+                display: inline-block;
+                padding: 7px;
+            }
+
+            .right {
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+            }
+
+            .wor4 {
+                background-color: rgb(238, 238, 238);
+                border-radius: 10px 10px 10px 10px;
+                padding: 15px;
+                width: 130px;
+            }
+
+            .table_topic {
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px 10px 10px 10px;
+                padding: 2px;
+                width: 30px;
+                text-align: center;
+            }
+
+            .Darker_dot {
+                height: 16px;
+                width: 16px;
+                background-color: rgb(87, 87, 87);
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 10px;
+                vertical-align: -3px;
+            }
+
+            .light_dot {
+                height: 16px;
+                width: 16px;
+                background-color: rgb(180, 180, 180);
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 0px;
+                vertical-align: -3px;
+            }
+
+            .Darker_dot_sm {
+                height: 13px;
+                width: 13px;
+                background-color: rgb(87, 87, 87);
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 5px;
+                vertical-align: 0px;
+            }
