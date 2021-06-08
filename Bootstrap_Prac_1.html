@@ -11,12 +11,298 @@
             integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
         <title>Bootstrap-prac</title>
+
+        <!-- Font link -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+        <!-- css -->
+        <link rel="stylesheet" href="css/style-prac-1.css">
+
+
     </head>
 
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
             crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/a18868cfea.js" crossorigin="anonymous"></script>
+
+        <div class="container mt-4">
+            <div class="row ">
+                <div class="col">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a class="link-color" href="#"
+                                    style="text-decoration: none;">โต๊ะ</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">จัดการโต๊ะอาหาร</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-2">
+            <div class="row ">
+                <div class="col">
+                    <h2>จัดการโต๊ะอาหาร</h2>
+                </div>
+                <div class="col-auto">
+                    <div class="row ">
+                        <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                    class="fas fa-adjust ms-2 mx-2"></i>เพิ่มออร์เดอร์</button> </div>
+                        <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                    class="fas fa-adjust ms-2 mx-2"></i>เปิดโต๊ะ</button> </div>
+                        <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                    class="fas fa-adjust ms-2 mx-2"></i>บริหารโต๊ะอาหาร</button> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col ">
+                    <div class="col">
+                        <div class="card-custom border-left-primary">
+                            <div>
+                                <h1>13</h1>
+                                <i class="fas fa-adjust "></i>
+                                รอการยืนยัน
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <div class="card-custom border-left-red">
+                            <div>
+                                <h1>13</h1>
+                                <i class="fas fa-adjust "></i>
+                                รอเสิร์ฟ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <div class="card-custom border-left-yello">
+                            <div>
+                                <h1>13</h1>
+                                <i class="fas fa-adjust "></i>
+                                รอบริการ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <div class="card-custom border-left-green">
+                            <div>
+                                <h1>13</h1>
+                                <i class="fas fa-adjust "></i>
+                                ชำระเงิน
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="container mt-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#โต๊ะที่ต้องจัดการ">โต๊ะที่ต้องจัดการ
+                                <span class="badge bg-secondary ms-2">12</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#โต๊ะที่ว่าง">โต๊ะว่าง<span
+                                    class="badge bg-secondary ms-2">12</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="โต๊ะที่ต้องจัดการ">
+
+                            <div class="row mt-2"></div>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="ค้นหา">
+                                </div>
+                            </form>
+
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col mt-1 ">
+                                        <div class="card-body text-start">
+                                            <h5>โต๊ะที่ 1</h5>
+                                            <div class="row no-gutters">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust  mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust  mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust  mx-2"></i> 1
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust ms-2 mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <i class="fas fa-adjust ms-2 mx-2"></i> HC159528
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <i class="fas fa-adjust ms-2 mx-2"></i> 6 มิถุนายน 2564
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-auto">
+
+                                        <div class="card-body">
+                                            <div class="row mt-4">
+                                                <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                                            class="fas fa-adjust ms-2 mx-2"></i>ปิดโต๊ะ</button>
+                                                </div>
+                                                <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                                            class="fas fa-adjust ms-2 mx-2"></i>สรุปบิล</button> </div>
+                                                <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                                            class="fas fa-adjust ms-2 mx-2"></i>เพิ่มออร์เดอร์</button>
+                                                </div>
+
+                                                <div class="col-auto">
+                                                    <i class="fas fa-chevron-right mt-2 "></i>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mt-4 ">
+                                <div class="row ">
+                                    <div class="col mt-1 ">
+                                        <div class="card-body text-start">
+                                            <h5>โต๊ะที่ 1</h5>
+                                            <div class="row no-gutters">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust  mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust  mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust  mx-2"></i> 1
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-adjust ms-2 mx-2"></i> 1
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <i class="fas fa-adjust ms-2 mx-2"></i> HC159528
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <i class="fas fa-adjust ms-2 mx-2"></i> 6 มิถุนายน 2564
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-auto">
+
+                                        <div class="card-body">
+                                            <div class="row mt-4">
+                                                <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                                            class="fas fa-adjust ms-2 mx-2"></i>ปิดโต๊ะ</button>
+                                                </div>
+                                                <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                                            class="fas fa-adjust ms-2 mx-2"></i>สรุปบิล</button> </div>
+                                                <div class="col-auto"><button type="button" class="btn btn-secondary"><i
+                                                            class="fas fa-adjust ms-2 mx-2"></i>เพิ่มออร์เดอร์</button>
+                                                </div>
+
+                                                <div class="col-auto">
+                                                    <i class="fas fa-chevron-right mt-2 "></i>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
